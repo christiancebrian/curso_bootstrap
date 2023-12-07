@@ -23,3 +23,13 @@ $('.hoverNavAba').on('click', function () {
         $('#numberNews').hide();
     }
 })
+// Navegação da paginação da tabela
+$('.page-item').on('click', function (e) {
+    $('.page-item').removeClass('active');
+    $(this).addClass('active');
+    if ($(this).attr('id') != null) {
+        setTimeout(() => {
+            $('.page-item').removeClass('active');
+        }, 300);
+    }
+});

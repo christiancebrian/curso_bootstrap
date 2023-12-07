@@ -170,7 +170,7 @@
     </section>
 
     <h2>Last Users</h2>
-    <table class="table table-striped table-sm">
+    <table id="tabela" class="table table-striped table-sm">
       <thead>
         <tr>
           <th>#</th>
@@ -297,6 +297,17 @@
     </table>
 
     <!-- aqui entra a paginacao -->
+    <nav class="d-flex justify-content-center" aria-label="Page navigation example">
+      <ul class="pagination">
+        <li id="pagePrevious" class="page-item"><a class="page-link" href="#tabela" aria-label="Previous"><span
+              aria-hidden="true">&laquo;</span></a></li>
+        <li class="page-item active"><a class="page-link" href="#tabela">1</a></li>
+        <li class="page-item"><a class="page-link" href="#tabela">2</a></li>
+        <li class="page-item"><a class="page-link" href="#tabela">3</a></li>
+        <li id="pagNext" class="page-item"><a class="page-link" href="#tabela" aria-label="Next"><span
+              aria-hidden="true">&raquo;</span></a></li>
+      </ul>
+    </nav>
   </main>
 
 
