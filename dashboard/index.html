@@ -10,6 +10,9 @@
 
   <title>Dashboard Template for Bootstrap</title>
 
+  <!-- JQuery 3.7.1 -->
+  <script src="js/jquery.min.js"></script>
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -112,7 +115,8 @@
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
             <button class="nav-link active" id="lastNews-tab" data-bs-toggle="tab" data-bs-target="#lastNews"
-              type="button" role="tab" aria-controls="lastNews" aria-selected="true">Last News</button>
+              type="button" role="tab" aria-controls="lastNews" aria-selected="true">Last News <span id="numberNews"
+                class="badge bg-primary rounded-pill">3</span></button>
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="support-tab" data-bs-toggle="tab" data-bs-target="#support" type="button"
@@ -124,19 +128,35 @@
           </li> -->
         </ul>
         <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="lastNews" role="tabpanel" aria-labelledby="lastNews-tab">
-            <p>Tab 01 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus ullamcorper nunc, et
-              elementum nibh viverra ac. Nunc sit amet mi risus. Mauris magna eros, pharetra in ultrices sed, dictum sed
-              risus. Fusce et erat in elit condimentum volutpat. Phasellus vitae euismod justo, ac sagittis justo. Ut
-              felis urna, aliquet ac volutpat et, ornare et tortor. Vestibulum et dignissim ipsum. Donec at sollicitudin
-              orci. Mauris posuere enim elit, et accumsan lacus efficitur et. Ut id enim at lectus commodo pulvinar.</p>
+          <div class="tab-pane fade show active w-100" id="lastNews" role="tabpanel" aria-labelledby="lastNews-tab">
+            <div class="list-group w-100">
+              <a href="#" class="list-group-item list-group-item-action hoverNavAba">
+                <div class="d-flex w-100 justify-content-between">
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small>3 days ago</small>
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action hoverNavAba">
+                <div class="d-flex w-100 justify-content-between">
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small>3 days ago</small>
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action hoverNavAba">
+                <div class="d-flex w-100 justify-content-between">
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small>3 days ago</small>
+                </div>
+              </a>
+            </div>
           </div>
           <div class="tab-pane fade" id="support" role="tabpanel" aria-labelledby="support-tab">
-            <p>Tab 02 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus ullamcorper nunc, et
-              elementum nibh viverra ac. Nunc sit amet mi risus. Mauris magna eros, pharetra in ultrices sed, dictum sed
-              risus. Fusce et erat in elit condimentum volutpat. Phasellus vitae euismod justo, ac sagittis justo. Ut
-              felis urna, aliquet ac volutpat et, ornare et tortor. Vestibulum et dignissim ipsum. Donec at sollicitudin
-              orci. Mauris posuere enim elit, et accumsan lacus efficitur et. Ut id enim at lectus commodo pulvinar.</p>
+            <div class="d-flex flex-column justify-content-between">
+              <h4>Get in Touch:</h4>
+              <p>Donec it elit non mi porta gravida et eget metus. Maecenas sed diam eget risus varius blandit.</p>
+              <hr>
+              <p>mail@server<br>2121-5652</p>
+            </div>
           </div>
           <!-- <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
             <p>Tab 03 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus ullamcorper nunc, et
@@ -150,26 +170,7 @@
     </section>
 
 
-    <div class="">
-      <div class="">
-        <div class="">
 
-          <ul class="" id="">
-            <li class="">
-              <a class="" id="" href="#">Last News 3</a>
-            </li>
-            <li class="">
-              <a class="" id="" href="#">Support</a>
-            </li>
-
-          </ul>
-          <!-- aqui entra o conteudo das abas -->
-
-        </div>
-
-
-      </div>
-    </div>
 
     <h2>Last Users</h2>
     <div class="">
@@ -307,6 +308,8 @@
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <!-- JQuery Funções -->
+  <script src="js/rodape.js"></script>
 
 </body>
 
