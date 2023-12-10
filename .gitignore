@@ -1,0 +1,19 @@
+# Created by Christian Cebrian
+# Edit at Curso Bootstrap
+
+### Curso Bootstrap ###
+# Core
+#
+# Note: if you want to stage/commit WP core files
+# you can delete this whole section/until Configuration.
+
+#Pastas com imagens
+/curso-web/imgs
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# End
