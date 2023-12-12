@@ -1,3 +1,80 @@
+# Curso de Bootstrap 4 - Projetos Práticos
+
+Bem-vindo ao repositório oficial do curso de Bootstrap 4, ministrado por Christian Cebrian. Neste curso, utilizamos Bootstrap 5.1 para criar projetos práticos e aprimorar suas habilidades de desenvolvimento web.
+
+![Bootstrap Logo](url_da_imagem_do_bootstrap)
+
+## Sobre o Instrutor
+
+Christian Cebrian, desenvolvedor web experiente, guiará você através dos conceitos fundamentais e avançados do Bootstrap, garantindo uma compreensão profunda e prática.
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- Bootstrap 5.1
+- JavaScript
+- jQuery
+
+![HTML5 Logo](url_da_imagem_do_html5) ![CSS3 Logo](url_da_imagem_do_css3) ![Bootstrap Logo](url_da_imagem_do_bootstrap) ![JavaScript Logo](url_da_imagem_do_js) ![jQuery Logo](url_da_imagem_do_jquery)
+
+## Projetos Desenvolvidos
+
+### Projeto 1: Nome do Projeto
+
+Descrição concisa do primeiro projeto desenvolvido no curso.
+
+- Recursos:
+  - Lista de funcionalidades ou seções desenvolvidas.
+  - [Link para o Projeto 1](url_do_projeto_1)
+
+![Projeto 1](url_da_imagem_do_projeto_1)
+
+### Projeto 2: Nome do Projeto
+
+Descrição concisa do segundo projeto desenvolvido no curso.
+
+- Recursos:
+  - Lista de funcionalidades ou seções desenvolvidas.
+  - [Link para o Projeto 2](url_do_projeto_2)
+
+![Projeto 2](url_da_imagem_do_projeto_2)
+
+### Projeto 3: Nome do Projeto
+
+Descrição concisa do terceiro projeto desenvolvido no curso.
+
+- Recursos:
+  - Lista de funcionalidades ou seções desenvolvidas.
+  - [Link para o Projeto 3](url_do_projeto_3)
+
+![Projeto 3](url_da_imagem_do_projeto_3)
+
+## Datas Importantes
+
+- **Início do Curso:** 12 de Novembro de 2023
+- **Última Atualização:** 09 de Dezembro de 2023
+
+## Como Começar
+
+Siga estas etapas para começar:
+
+1. Clone este repositório: `git clone url_do_seu_repositorio`
+2. Abra os projetos em seu editor de código favorito.
+3. Explore os códigos fonte e os recursos dos projetos.
+
+## Suporte e Contato
+
+Para dúvidas ou suporte adicional, entre em contato com Christian Cebrian:
+
+- Email: christian.cebrian@email.com
+- LinkedIn: [Christian Cebrian](url_do_linkedin)
+
+Esperamos que aproveite o curso e aprimore suas habilidades com Bootstrap 5.1!
+
+
+-----------------------------------
+
 <h1 align="center">Article Model</h1>
 <p align="center"><i>Repository for versioning and project documentation used during the series of articles on GitHub.</i></p>
 
