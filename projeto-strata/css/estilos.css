@@ -19,3 +19,50 @@ body {
 #sideNav .navbar-toggler:focus {
     outline-color: #d48a6e;
 }
+
+.card {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.card a {
+    display: block;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.card a::before {
+    background-image: url('images/overlay.png');
+    border-radius: 0.35rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+
+.card a::after {
+    border-radius: 0.35rem;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    content: 'View';
+    display: inline-block;
+    font-size: 0.8rem;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -1.25em 0 0 -3em;
+    opacity: 0;
+    padding: 0 1.5em;
+    text-align: center;
+    line-height: 2.25em;
+    letter-spacing: 2px;
+}
+
+.card a:hover::before, .card a:hover::after {
+    opacity: 1;
+}
