@@ -103,7 +103,7 @@ body {
         background-attachment: scroll;
         background-position: top left;
         background-repeat: repeat, no-repeat;
-        background-size: auto, auto 100%;
+        background-size: auto, cover;
         color: rgba(255, 255, 255, 0.5);
         text-align: center;
     }
@@ -125,5 +125,14 @@ body {
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 3rem;
+        left: 0;
+        width: 30%;
+        background-color: transparent;
+        z-index: 1031;
     }
 }
