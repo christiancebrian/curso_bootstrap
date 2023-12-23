@@ -1,0 +1,18 @@
+body {
+    padding-top: 4rem;
+}
+
+navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    background-color: #63c6ae;
+    text-align: right;
+    min-width: 9rem;
+    color: #ffffff !important;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
