@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--    <script src="js/jquery-3.3.1.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <style>
+        .destaque {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>curso Jquery</h1>
+
+        <input type="text" class="txt" id="txt" placeholder="texto qualquer"><br>
+        <input type="email" class="email" id="email" placeholder="email qualquer"><br>
+
+        <a href="#" title="qualquer link">Link falso</a> |
+        <a href="#">Link falso</a> |
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <p class="destaque">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+        <h2>Seletores jQuery</h2>
+
+        <ul>
+            <li> item 1</li>
+            <li> item 2</li>
+            <li> item 3
+                <ul>
+                    <li>item 3.1</li>
+                    <li>item 3.2</li>
+                    <li>item 3.3</li>
+                    <li>item 3.4</li>
+                </ul>
+            </li>
+            <li> item 4</li>
+            <li> item 5</li>
+            <li> item 6</li>
+            <li> item 7</li>
+        </ul>
+
+    </div>
+
+
+    <script>
+        $(function () {
+            // Pega seletor com o ID
+            $('#txt').val('alterado com jquery')
+            // Pega o seletor com a CLASS
+            $('.email').val('alterado com jquery')
+            // Pega todos seletores P e LI
+            // $('p, li').css('color', '#999')
+            // Pega todos seletores P exceto com class 'destaque' e LI
+            $('p:not(.destaque), li').css('color', '#999')
+            // Pega todos seletores LI dentro de uma UL que está dentro da classe CONTAINER
+            $('.container > ul > li').css('color', 'black')
+            // Pega o seletor P irmã de seletor com classe DESTAQUE
+            $('.destaque + p').addClass('destaque')
+            // Pega todos seletores irmãos do seletor com classe DESTAQUE
+            // $('.destaque - p').addClass('destaque')
+            // Pega o último seletor LI
+            $('li:last').css('color', 'green')
+            // Pega o primeiro seletor LI
+            // $('li:first').css('color', 'green')
+            // Pega os seletores P depois da posição informada
+            $('p:gt(2)').css({
+                // CSS em formato objeto
+                'color': 'orange',
+                fontSize: '22px'
+            })
+            // Pega os seletores LI antes da posição informada
+            $('li:lt(2)').css('fontSize', '30px')
+            // Pega os seletores A com o atributo TITLE
+            $('a[title]').css('color', 'red')
+            // Pega os seletores A que não possuem o atributo TITLE
+            $('a:not([title])').hide()
+        })  
+    </script>
+</body>
+
+</html>
